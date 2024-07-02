@@ -54,7 +54,7 @@ The following steps will guide you step-by-step through the installation procedu
 The installation procedure is carried out on the command line interface and is valid for both architectures.
 
 1. Install the Service Engine package  
-    `sudo apt install service-engine`  
+    `sudo apt install service-engine --install-recommends`  
     This will install the Service Engine and all required software packages on your system.  
 
 **Hint:** Ensure to also let the system install the packages `locales-all` and `iiot-cli-14-0`, as they are required for the flawless functionality of the Service Engine. Those packages are installed by default along with the `service-engine` package.
